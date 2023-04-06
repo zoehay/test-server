@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://zoemhay.com",
     methods: "GET,PUT,POST,DELETE",
     credentials: true,
     allowedHeaders: ["content-type", "cookie", "credentials"],
